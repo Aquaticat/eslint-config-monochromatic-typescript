@@ -1,0 +1,5 @@
+{
+  "extends": "@tsconfig/esm/tsconfig.json",
+
+  "files": [".eslintrc.cjs", "index.cjs"]
+}

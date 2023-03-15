@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-monochromatic-typescript",
+  "version": "0.0.1",
+  "description": "Monochromatic's ESLint config with TypeScript support",
+  "main": "index.cjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aquaticat/eslint-config-monochromatic-typescript.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monochromatic",
+    "config",
+    "eslint",
+    "eslintconfig",
+    "esnext",
+    "javascript",
+    "typescript",
+    "styleguide"
+  ],
+  "author": {
+    "name": "Aquaticat",
+    "email": "an@aquati.cat",
+    "url": "https://aquati.cat"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "eslint-config-monochromatic": "^0.0.5"
+  },
+  "devDependencies": {
+    "@tsconfig/esm": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0",
+    "typescript": "5.0.0-beta"
+  }
+}
