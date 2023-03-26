@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-monochromatic-typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Monochromatic's ESLint config with TypeScript support",
   "main": "index.cjs",
   "repository": {

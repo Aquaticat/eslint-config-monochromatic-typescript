@@ -1,9 +1,5 @@
 module.exports = {
-  extends: [
-    'monochromatic',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
-  ],
+  extends: ['monochromatic'],
 
   parser: '@typescript-eslint/parser',
 
@@ -31,6 +27,8 @@ module.exports = {
         '*.cts',
         '*.tsx',
       ],
+
+      extends: ['plugin:@typescript-eslint/recommended', 'plugin:@typescript-eslint/recommended-requiring-type-checking'],
 
       rules: {
         '@typescript-eslint/array-type': 'error',
@@ -233,6 +231,8 @@ module.exports = {
       },
     },
 
+    //region Use when @typescript-eslint is used globally.
+
     {
       files: [
         '*.js',
@@ -263,5 +263,7 @@ module.exports = {
         '@typescript-eslint/no-var-requires': 'off',
       },
     },
+
+    //endregion
   ],
 };

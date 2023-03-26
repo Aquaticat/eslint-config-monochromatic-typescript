@@ -211,5 +211,8 @@ dist
 
 ###########################################################
 
-### IntelliJ config
+### IDE config
 .idea/
+
+### Ignore
+.gitignore
