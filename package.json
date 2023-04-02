@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-monochromatic-typescript",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Monochromatic's ESLint config with TypeScript support",
   "main": "index.cjs",
   "repository": {
@@ -27,7 +27,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "eslint-config-monochromatic": "^0.0.6"
+    "eslint-config-monochromatic": "^0.0.7"
   },
   "devDependencies": {
     "@tsconfig/esm": "^1.0.2",

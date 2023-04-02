@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   eslint-config-monochromatic:
-    specifier: ^0.0.6
-    version: 0.0.6
+    specifier: ^0.0.7
+    version: 0.0.7
 
 devDependencies:
   '@tsconfig/esm':
@@ -378,8 +378,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-monochromatic@0.0.6:
-    resolution: {integrity: sha512-JMxEq2jQ15jwsVZKJXTFzLOCli+iZ3fkd9rUj5eAySd0udUUlVowtI9IrlpJa9WaN5Al7sTSUVbE4a3QPH0Hcw==, tarball: https://registry.npmjs.org/eslint-config-monochromatic/-/eslint-config-monochromatic-0.0.6.tgz}
+  /eslint-config-monochromatic@0.0.7:
+    resolution: {integrity: sha512-cAxSzA4YIriHZD+trEOemWfv1qCxrl923FLuaNfmDUpl3+XoYQc7KLwj64YNj+rB/DfaWJ/VUiGiGApeESTqCA==, tarball: https://registry.npmjs.org/eslint-config-monochromatic/-/eslint-config-monochromatic-0.0.7.tgz}
     dev: false
 
   /eslint-scope@5.1.1:
