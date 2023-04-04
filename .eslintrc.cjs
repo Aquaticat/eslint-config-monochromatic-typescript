@@ -104,6 +104,12 @@ module.exports = {
       {
         selector: 'variable',
         modifiers: ['const'],
+        types: [
+          'array',
+          'boolean',
+          'number',
+          'string'
+        ],
         format: ['UPPER_CASE'],
       },
       {
@@ -130,8 +136,8 @@ module.exports = {
           'accessor',
           'enumMember',
         ],
-        format: null,
         modifiers: ['requiresQuotes'],
+        format: null,
       },
       {
         selector: 'variable',
