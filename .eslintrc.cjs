@@ -110,6 +110,17 @@ module.exports = {
           'number',
           'string'
         ],
+        format: ['UPPER_CASE', 'camelCase'],
+      },
+      {
+        selector: 'variable',
+        modifiers: ['const', 'global'],
+        types: [
+          'array',
+          'boolean',
+          'number',
+          'string'
+        ],
         format: ['UPPER_CASE'],
       },
       {
