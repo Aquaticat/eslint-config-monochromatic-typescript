@@ -104,12 +104,6 @@ module.exports = {
       {
         selector: 'variable',
         modifiers: ['const'],
-        types: [
-          'array',
-          'boolean',
-          'number',
-          'string'
-        ],
         format: ['UPPER_CASE', 'camelCase'],
       },
       {
