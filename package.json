@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-monochromatic-typescript",
-  "version": "0.0.4",
-  "description": "Monochromatic's ESLint config with TypeScript support",
+  "version": "0.0.5",
+  "description": "Monochromatic's ESLint config with TypeScript support only. Install eslint-config-monochromatic, too!",
   "main": "index.cjs",
   "repository": {
     "type": "git",
@@ -26,14 +26,11 @@
     "url": "https://aquati.cat"
   },
   "license": "Apache-2.0",
-  "dependencies": {
-    "eslint-config-monochromatic": "^0.0.7"
-  },
   "devDependencies": {
-    "@tsconfig/esm": "^1.0.2",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "eslint": "^8.36.0",
-    "typescript": "^5.0.2"
+    "tsconfig-monochromatic": "^0.0.1",
+    "typescript": "^5.0.3"
   }
 }
