@@ -311,8 +311,10 @@ module.exports = {
     //region Extension Rules
 
     /* https://typescript-eslint.io/rules/no-extra-semi/ insists that a semi after export statement is extra.
-       Disabled this. Just use the base rule. */
-    '@typescript-eslint/no-extra-semi': 'off',
+       Disabled this. Just use the base rule.
+       Update: Disabled the base rule instead because
+               it keeps complaining there should be a semicolon when there already is a semicolon. */
+    'no-extra-semi': 'off',
 
     // Disable the base rule.
     'require-await': 'off',
