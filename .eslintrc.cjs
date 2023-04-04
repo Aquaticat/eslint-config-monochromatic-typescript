@@ -307,6 +307,17 @@ module.exports = {
     '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
 
     '@typescript-eslint/unified-signatures': ['error', { ignoreDifferentlyNamedParameters: true }],
+
+    //region Extension Rules
+
+    /* https://typescript-eslint.io/rules/no-extra-semi/ insists that a semi after export statement is extra.
+       Disabled this. Just use the base rule. */
+    '@typescript-eslint/no-extra-semi': 'off',
+
+    // Disable the base rule.
+    'require-await': 'off',
+
+    //endregion
   },
 
   /*   overrides: [

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-monochromatic-typescript",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Monochromatic's ESLint config with TypeScript support only. Install eslint-config-monochromatic, too!",
   "main": "index.cjs",
   "repository": {
