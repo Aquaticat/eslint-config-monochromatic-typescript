@@ -313,8 +313,9 @@ module.exports = {
     /* https://typescript-eslint.io/rules/no-extra-semi/ insists that a semi after export statement is extra.
        Disabled this. Just use the base rule.
        Update: Disabled the base rule instead because
-               it keeps complaining there should be a semicolon when there already is a semicolon. */
-    'no-extra-semi': 'off',
+               it keeps complaining there should be a semicolon when there already is a semicolon.
+       Update: Disabled both because I want to use extra semicolons and I will let dprint handle it. */
+    '@typescript-eslint/no-extra-semi': 'off',
 
     // Disable the base rule.
     'require-await': 'off',
